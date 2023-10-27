@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMi0wNS9ybTIxOGJhdGNoMTAtbXludC0xMi5qcGc.jpg?s=mKejM0sPQKpNGIGUIleu39XXkQqCvWyLYIHYxc6ZUbA);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        display: none;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        height: 85px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .div1 p {
+        color: white;
+        padding-top: 30px;
+        font-size: large;
+
+    }
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+    .b1{
+        margin-top: 30px;
+        padding: 5px 20px 5px 20px;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: medium;
+    }
+    .b1:hover{
+        transition: all 0.3s;
+        border: 2px solid white;
+        border-radius: 3px;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+display: flex;
+justify-content: space-around;
+    }
+    .div3{
+        color: white;
+        padding-top: 200px;   
+        padding-left: 110px;
+        
+        }
+        .div3 h1{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            letter-spacing: 5px;
+            font-size: 50px;
+        }
+        .div3 p{
+            line-height: 25px;
+        }
+        .div3 button{
+            margin-top: 25px;
+            width: 180px;
+            height: 50px;
+            border-radius: 30px;
+            background-color: transparent;
+            color: darkblue;
+            border: 3px solid white;
+            }
+        .div3 button:hover{
+            transition: 0.3s;
+            background-color: lightgreen;
+            color: white;
+            border: none;
+        }
+.div4{
+    width: 350px;
+    height: 380px;
+    border: 2px solid white;
+    background-color: white;
+    margin-top: 170px;
+    margin-right: 130px;
+    text-align: center;
+    box-shadow: 0 0 30px 25px rgb(3, 3, 218);
+}
+.div4 h2{
+    padding-top: 20px;
+}
+.div4 input{
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+}
+.div4 select{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: lightgray;
+    border: none;
+}
+.div4 button{
+    width: 300px;
+    height: 40px;
+    color: gray;
+    background-color: transparent;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+.div4 button:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+    transition: all 0.3s;
+}
+@media(max-width:700px){
+    
+    .b1{
+        display: block;
+    }
+    .container{
+        display: block;
+        text-align: center;
+    }
+    ul{
+                display: none;
+                position: absolute;
+                background-color: darkblue;
+                color: white;
+                top: 55px;
+                left: 75%;
+                padding: 5px;
+                border-radius: 15px;
+                box-shadow: 0 0 15px white;
+
+            }
+    .material-symbols-outlined {
+                display: block;
+                color: white;
+                padding-top: 30px;
+            }
+            .material-symbols-outlined:hover+ul{
+                display: block;
+            } 
+            .div4{
+                margin-left: 170px;
+justify-content: center;
+            }
+
+
+}
+</style>
+
+<body>
+    <header>
+        <div class="div1">
+            <p>Landing </p>
+        </div>
+        <div class="div2">
+            <span class="material-symbols-outlined">
+                lists
+            </span>
+<ul>
+
+    <li><button class="b1">Home</button></li>
+    <li><button class="b1">Features</button></li>
+    <li><button class="b1">Reviews</button></li>
+    <li><button class="b1">Pricing</button></li>
+    <li><button class="b1">FAQ</button></li>
+    <li><button class="b1">Get Started</button></li>
+    
+</ul>
+        </div>
+    </header>
+    <div class="container">
+<div class="div3">
+<h1>Fly makes you <br> faster </h1>
+<p>New free template by uicookies.com. For more <br>
+     templates visit the site.Lorem ipsum dolor sit amit, <br> consectetur adipisicing elit. </p>
+     <button>SEE PRICING</button>
+</div>
+<div class="div4">
+<h2>Sign Up for Free</h2>
+<input type="text" name="" id="" placeholder="Full name">
+<input type="text" name="" id="" placeholder="Email">
+<input type="password" placeholder="Password">
+<select name="" id="">
+    <option value="Type">Type</option>
+</select>
+<button>Register</button>
+</div>
+    </div>
+</body>
+
+</html>
